@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
     {% include head.html %}
 <body>
 
@@ -55,10 +55,10 @@ BOWER_INSTALLED_APPS = (
                     <h3>Including dependencies using Pipeline</h3>
                     <p>In <code>settings.py</code> file describe the dependencies you want to use and have compressed.</p>
                     <pre class="text-left">PIPELINE_CSS = {
-    
+
     # Libraries
     'libraries': {
-        'source_filenames': (   
+        'source_filenames': (
             'bower_components/bootstrap/dist/css/bootstrap.css',
         ),
         'output_filename': 'css/libs.min.css',
@@ -88,7 +88,7 @@ BOWER_INSTALLED_APPS = (
                     <p>In your <code>jenkins.sh</code> build file, make sure that bower components get fetched before statics are collected.</p>
                     <pre class="text-left">#...
 
-# Install bower 
+# Install bower
 ./manage.py bower install
 
 # Collect static files
@@ -107,6 +107,13 @@ BOWER_INSTALLED_APPS = (
 </pre>
                 </div>
 
+                <!-- Dummy -->
+                <div class="inner cover">
+                    <h3>.gitignore configuration</h3>
+                    <iframe src="https://apps.co/emprendimientos/innocuousystem/embed/" frameborder="0" width="300" height="93"></iframe>
+                </div>
+
+
                 <div class="mastfoot">
                     <div class="inner">Built with &lt;3 by <a href="http://axiacore.com">AxiaCore</a>.</p>
                 </div>
@@ -117,6 +124,6 @@ BOWER_INSTALLED_APPS = (
         </div>
 
     </div>
-    
+
 </body>
 </html>
